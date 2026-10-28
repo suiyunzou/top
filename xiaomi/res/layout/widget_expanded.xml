@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/widget_background" android:clipToOutline="true">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="180dp">
+    <ImageView android:id="@+id/card" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="fitXY" android:contentDescription="ftop 设备状态。点击查看详情。" />
+    <TextView android:id="@+id/network_download" android:layout_width="48dp" android:layout_height="48dp"
+        android:focusable="true" android:contentDescription="下载，查看各应用下载流量" />
+    <TextView android:id="@+id/network_upload" android:layout_width="48dp" android:layout_height="48dp"
+        android:focusable="true" android:contentDescription="上传，查看各应用上传流量" />
+    </FrameLayout>
+    <TextView android:id="@+id/process_title" android:layout_width="match_parent" android:layout_height="24dp"
+        android:paddingStart="16dp" android:paddingEnd="16dp" android:text="进程 · CPU / 内存" android:textSize="11sp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+        <ListView android:id="@+id/process_list" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:scrollbars="none" android:divider="@null" android:dividerHeight="0dp"
+            android:overScrollMode="never" android:contentDescription="可见进程列表，上下滑动查看" />
+        <TextView android:id="@+id/process_empty" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:gravity="center" android:text="暂无可见进程" android:textSize="12sp" />
+    </FrameLayout>
+    <TextView android:id="@+id/process_scope" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingStart="16dp" android:paddingEnd="16dp" android:textSize="10sp" android:maxLines="2" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp" android:gravity="center_vertical"
+        android:paddingStart="16dp" android:paddingEnd="8dp">
+        <TextView android:id="@+id/updated" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="10sp" />
+        <TextView android:id="@+id/refresh" android:layout_width="84dp" android:layout_height="match_parent"
+            android:gravity="center" android:text="↻ 刷新" android:textSize="12sp" android:contentDescription="刷新设备状态" />
+    </LinearLayout>
+</LinearLayout>

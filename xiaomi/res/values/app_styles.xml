@@ -1,0 +1,16 @@
+<resources>
+    <style name="AppThemeLight" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">#205FC6</item>
+        <item name="android:colorControlActivated">#205FC6</item>
+        <item name="android:colorError">#B42318</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppThemeDark" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">#609FFF</item>
+        <item name="android:colorControlActivated">#609FFF</item>
+        <item name="android:colorError">#FF8A80</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

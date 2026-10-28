@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_device">设备</string>
+    <string name="app_settings">设置</string>
+    <string name="app_running">运行应用</string>
+    <string name="app_group_count">%1$d 个应用分组</string>
+    <string name="app_search">搜索应用、进程或包名</string>
+    <string name="app_search_process">搜索进程名或 PID</string>
+</resources>

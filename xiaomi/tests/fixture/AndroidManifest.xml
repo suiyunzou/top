@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.ftop.fixture">
+    <uses-sdk android:minSdkVersion="31" android:targetSdkVersion="35" />
+    <application android:label="ftop 测试靶标" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <activity android:name=".FixtureActivity" android:exported="true" />
+        <service android:name=".FixtureService" android:process=":worker" android:exported="false" />
+    </application>
+</manifest>

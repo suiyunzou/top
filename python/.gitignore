@@ -1,0 +1,6 @@
+.venv-ftop/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+build-ftop/
+dist-ftop/

@@ -1,0 +1,12 @@
+This Windows port uses design, layout-choice, motion and steady-ranking algorithms
+adapted from Nongfsq/ftop at aa40ed667644d194fbe60fabdc33a81d6561730a.
+Original project: https://github.com/Nongfsq/ftop
+The upstream MIT license is reproduced in LICENSE-upstream.txt.
+
+Windows-specific metrics, Qt rendering and process identity handling differ from
+the macOS implementation. This is an independent port, not an official release.
+Qt for Python (PySide6) is an unmodified dependency under its own LGPLv3/GPLv3 or
+commercial license. Executable distributions bundle it and include notices in
+the licenses directory. The directory edition retains replaceable Qt DLLs.
+Qt sources: https://code.qt.io/cgit/qt/qtbase.git/ (v6.11.2)
+PySide sources: https://code.qt.io/cgit/pyside/pyside-setup.git/ (v6.11.2)

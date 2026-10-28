@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/process_row"
+    android:layout_width="match_parent" android:layout_height="52dp" android:orientation="horizontal"
+    android:gravity="center_vertical" android:paddingStart="4dp" android:paddingEnd="4dp">
+    <TextView android:id="@+id/process_icon" android:layout_width="28dp" android:layout_height="28dp"
+        android:gravity="center" android:text="▥" android:textSize="18sp" android:importantForAccessibility="no"/>
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+        android:orientation="vertical" android:layout_marginStart="8dp">
+        <TextView android:id="@+id/process_name" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="13sp" android:maxLines="1" android:ellipsize="end" />
+        <TextView android:id="@+id/process_meta" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="10sp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"
+        android:gravity="end" android:layout_marginStart="6dp">
+        <TextView android:id="@+id/process_cpu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="13sp" />
+        <TextView android:id="@+id/process_memory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>

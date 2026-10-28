@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.ftop.widget.tests">
+    <uses-sdk android:minSdkVersion="31" android:targetSdkVersion="35" />
+    <instrumentation android:name="dev.ftop.widget.LayoutTests" android:targetPackage="dev.ftop.widget" android:label="ftop compact layout" />
+    <instrumentation android:name="dev.ftop.widget.DetailLayoutTests" android:targetPackage="dev.ftop.widget" android:label="ftop app detail synthetic layout" />
+    <instrumentation android:name="dev.ftop.widget.DialogLayoutTests" android:targetPackage="dev.ftop.widget" android:label="ftop synthetic dialog layout" />
+    <application android:label="ftop device tests" />
+    <instrumentation android:name="dev.ftop.widget.NetworkTests" android:targetPackage="dev.ftop.widget" android:label="ftop network attribution" />
+    <instrumentation android:name="dev.ftop.widget.KeyboardTests" android:targetPackage="dev.ftop.widget" android:label="ftop keyboard and restoration" />
+    <instrumentation android:name="dev.ftop.widget.PermissionTests" android:targetPackage="dev.ftop.widget" android:label="ftop permission fallback" />
+    <instrumentation android:name="dev.ftop.widget.FeatureTests" android:targetPackage="dev.ftop.widget" android:label="ftop app grouping and controls" />
+    <instrumentation android:name="dev.ftop.widget.tests.DeviceTests" android:targetPackage="dev.ftop.widget" android:label="ftop device tests" />
+    <instrumentation android:name="dev.ftop.widget.tests.UiTests" android:targetPackage="dev.ftop.widget" android:label="ftop UI tests" />
+    <instrumentation android:name="dev.ftop.widget.tests.ProcessTests" android:targetPackage="dev.ftop.widget" android:label="ftop process tests" />
+</manifest>
